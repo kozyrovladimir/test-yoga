@@ -1,0 +1,330 @@
+@media screen and (max-width: 1601px) {
+    .detail_new .detail_container{
+        padding-right: 10%;
+    }
+    .banner .slogan {
+        max-width: 56%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .free .img img{
+        background-size: contain;
+        max-width: 100%;
+    }
+    .what .img img{
+        background-size: contain;
+        width: 100%;
+    }
+    .free .img {
+        width: 100%;
+        margin-top: -65px;
+    }
+    .free .text {
+        width: 70%;
+        font-size: 18px;
+    }
+    .banner .slogan {
+        max-width: 56%;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .container{
+        width: 98%;
+    }
+    .detail .container.flex:before {
+        width: 100%;
+        height: 470px;
+        background-size: contain;
+    }
+    .detail .box {
+        background: #fff;
+    }
+    .detail .box:before {
+        left: 10%;
+    }
+
+}
+@media screen and (max-width: 1140px){
+    .detail_new {
+        background-image: url(../img/section_2_background_min.png);
+    }
+
+    .detail_new .detail_container{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .detail_new .detail_container .detail_new_item {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .detail_new .detail_container .detail_new_item p {
+        font-size: 18pt;
+    }
+
+    .detail_new .detail_container .detail_new_item h3 {
+        font-size: 20pt;
+    }
+}
+@media screen and (max-width: 1101px) {
+
+}
+@media screen and (max-width: 1001px){
+    .p {
+        font-size: 18pt;
+    }
+    .detail .container.flex:before {
+        width: 500px;
+        height: 380px;
+        bottom: 17%;
+    }
+    .free {
+        min-height: 600px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .free .text {
+        width: 70%;
+        text-align: center;
+        margin: -265px auto 0;
+    }
+    .free .text .btn {
+        margin: 35px auto 20px;
+        /* float: none; */
+        /* min-width: auto; */
+    }
+    .footer{
+        margin-top: -8px;
+    }
+    .free .img {
+        display: none;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .banner .container {
+        padding-bottom: 100px;
+    }
+
+    .what .img{
+        width: 100%;
+    }
+
+    .what .text{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 801px) {
+    .white-background {
+        background-color: #fff;
+    }
+
+    /* .banner .containr {
+        padding-left: 0;
+    } */
+    .banner {
+        background: url(../img/header.png) right 25% top no-repeat;
+        padding-top: 25px;
+    }
+    .banner .slogan {
+        max-width: 90%;
+        margin: auto;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.2);
+        color: #fff;
+        border-radius: 10px;
+        padding: 20px 10px;
+        box-sizing: border-box;
+    }
+    .banner .slogan .tu {
+        color: #fff;
+        text-align: center;
+    }
+    .banner .slogan .tr {
+        text-align: center;
+        padding-top: 20px;
+        color: #fff;
+    }
+    .banner .slogan .tr br{
+        display: none;
+    }
+    .banner .slogan .btn{
+        margin: 25px auto 0;
+        float: none;
+    }
+    .what{
+        padding-bottom: 50px;
+    }
+    .what .img{
+        width: 100%;
+    }
+    .what .text h2 {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .what .text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .detail{
+        padding: 70px 0;
+        background: #eff8fd;
+    }
+    .detail .container.flex {
+        justify-content: center;
+    }
+    .detail .container.flex .box {
+        width: 90%;
+        min-height: auto;
+        padding: 20px 10px;
+        box-sizing: border-box;
+    }
+    .detail .container.flex:before {
+        display: none;
+    }
+    .product{
+        padding-top: 100px;
+    }
+    .detail .product .text {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .detail .product .img {
+        width: 100%;
+        text-align: center;
+    }
+    .detail .product .img img{
+        background-size: contain;
+        max-width: 100%;
+    }
+
+    .free .img {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 621px) {
+    .logo{
+        text-align: center;
+    }
+    body h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    body h2 {
+        font-size: 24pt;
+    }
+    .what .text{
+        width: 100%;
+    }
+    body h2{
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .detail .product .text {
+        width: 98%;
+    }
+    .detail .container.flex .box {
+        width: 98%;
+        margin-bottom: 30px;
+    }
+    .detail .product h2 {
+        padding-bottom: 20px;
+    }
+    .free .text h2 {
+        padding-bottom: 20px;
+    }
+    .free .text {
+        width: 98%;
+    }
+
+}
+@media screen and (max-width: 575px) {
+    .p {
+        font-size: 14pt;
+    }
+
+    .btn {
+        font-size: 20pt;
+    }
+
+    .banner{
+        background-size: auto 92vw;
+        text-align: left;
+    }
+    .logo{
+        margin-bottom: 50vw;
+    }
+    .banner .container {
+        padding-bottom: 0;
+    }
+    .banner .slogan{
+        background: none;
+        color: #2a2727;
+        text-align: left;
+        padding-bottom: 60px;
+    }
+    .banner .slogan .tu, .banner .slogan .tr{
+        color: #2a2727;
+        text-align: left;
+        font-size: 5vw;
+    }
+    .banner .slogan .tr{
+        padding-top: 6vw;
+    }
+    .banner .slogan .text-wrapper{
+        text-align: left;
+    }
+    .banner .slogan .tr{
+        text-align: right;
+    }
+    .banner .slogan .tr span{
+        display: block;
+        text-align: left;
+    }
+    body h1{
+        font-size: 9vw;
+        margin-bottom: 6vw;
+    }
+    .banner .slogan .btn{
+        /* display: block; */
+        /* max-width: 310px; */
+        /* max-width: 200px; */
+    }
+    .free {
+        background-color: #f1f3f5;
+        background-image: url(../img/section_4_min_3.png);
+        background-position: right;
+        background-repeat: repeat;
+    }
+    .free .img{
+        /* width: 100%;
+        overflow: hidden; */
+        display: none;
+    }
+    .free .img img{
+        max-width: none;
+        width: 120vw;
+        background-size: cover;
+    }
+    .footer #to-top-button{
+        bottom: 15px;
+    }
+}
+
+@media (min-width: 801px) {
+    .banner .container {
+        padding-left: 14%;
+    }
+}
